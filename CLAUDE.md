@@ -1,17 +1,17 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+このファイルは、このリポジトリで作業する Claude Code (claude.ai/code) に向けたガイドです。
 
-## Repository purpose
+## リポジトリの目的
 
-This is a personal Git practice repository (notes are in Japanese), not a software project. It contains no source code, build system, package manifest, linter, or test suite — just plain-text notes tracking the basics of the Git workflow (`git add`, `git commit`, `git rm`, `git status`, `git diff`).
+このリポジトリはソフトウェアプロジェクトではなく、Git操作を練習するための個人用リポジトリです（メモは日本語で書かれています）。ソースコード、ビルドシステム、パッケージ定義、リンター、テストスイートは含まれておらず、Gitワークフローの基本（`git add`、`git commit`、`git rm`、`git status`、`git diff`）を記録したプレーンテキストのメモのみで構成されています。
 
-## Contents
+## 構成ファイル
 
-- `first.txt` — notes on the core Git workflow being practiced.
-- `second.txt` — a file created to practice adding/removing tracked files.
+- `first.txt` — 練習しているGitの基本的なワークフローに関するメモ。
+- `second.txt` — ファイルの追加・削除を練習するために作成されたファイル。
 
-## Working in this repository
+## このリポジトリで作業する際の注意点
 
-- There is nothing to build, lint, or test. Do not invent build/test tooling that isn't present.
-- The commit history itself is the record of practiced Git operations (add, remove, re-add, multi-file commits, diff review). When adding new practice steps, prefer creating small, well-named commits that continue documenting a specific Git command or workflow, consistent with the existing log.
+- ビルド・リント・テストの対象は何もありません。存在しないビルド/テストの仕組みを勝手に作らないでください。
+- コミット履歴自体が、これまで練習してきたGit操作（add、削除、再追加、複数ファイルのコミット、diffの確認など）の記録になっています。新しい練習内容を追加する場合は、既存のログと同様に、特定のGitコマンドやワークフローを記録する小さく分かりやすいコミットを心がけてください。
